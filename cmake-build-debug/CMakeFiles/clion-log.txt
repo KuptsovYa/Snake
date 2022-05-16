@@ -1,4 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\Yaroslav\CLionProjects\Snake
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Yaroslav\CLionProjects\Snake
+-- Found SFML .. in /Tools/SFML/include
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/Yaroslav/CLionProjects/Snake/cmake-build-debug

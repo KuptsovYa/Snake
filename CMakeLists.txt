@@ -3,9 +3,9 @@ project(Snake)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Snake main.cpp)
+add_executable(Snake src/main.cpp src/Engine.cpp headers/Engine.hpp src/Draw.cpp src/Input.cpp)
 
-include_directories(headers C:/Tools/SFML/include)
+include_directories(headers c:/Tools/SFML/include)
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
 find_package(SFML REQUIRED system window graphics)
