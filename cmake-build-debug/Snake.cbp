@@ -89,6 +89,9 @@
 		<Unit filename="C:/Users/Yaroslav/CLionProjects/Snake/headers/Engine.hpp">
 			<Option target="Snake"/>
 		</Unit>
+		<Unit filename="C:/Users/Yaroslav/CLionProjects/Snake/headers/SnakeSection.h">
+			<Option target="Snake"/>
+		</Unit>
 		<Unit filename="C:/Users/Yaroslav/CLionProjects/Snake/src/Draw.cpp">
 			<Option target="Snake"/>
 		</Unit>
@@ -96,6 +99,9 @@
 			<Option target="Snake"/>
 		</Unit>
 		<Unit filename="C:/Users/Yaroslav/CLionProjects/Snake/src/Input.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="C:/Users/Yaroslav/CLionProjects/Snake/src/SnakeSection.cpp">
 			<Option target="Snake"/>
 		</Unit>
 		<Unit filename="C:/Users/Yaroslav/CLionProjects/Snake/src/main.cpp">

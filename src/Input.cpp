@@ -9,6 +9,8 @@ void Engine::input() {
         }
 
         if (event.type == sf::Event::KeyPressed) {
+
+
             if (event.type == sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) {
                 window.close();
             }

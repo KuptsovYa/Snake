@@ -203,6 +203,33 @@ src/Input.cpp.s:
 	$(MAKE) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/Input.cpp.s
 .PHONY : src/Input.cpp.s
 
+src/SnakeSection.obj: src/SnakeSection.cpp.obj
+
+.PHONY : src/SnakeSection.obj
+
+# target to build an object file
+src/SnakeSection.cpp.obj:
+	$(MAKE) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/SnakeSection.cpp.obj
+.PHONY : src/SnakeSection.cpp.obj
+
+src/SnakeSection.i: src/SnakeSection.cpp.i
+
+.PHONY : src/SnakeSection.i
+
+# target to preprocess a source file
+src/SnakeSection.cpp.i:
+	$(MAKE) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/SnakeSection.cpp.i
+.PHONY : src/SnakeSection.cpp.i
+
+src/SnakeSection.s: src/SnakeSection.cpp.s
+
+.PHONY : src/SnakeSection.s
+
+# target to generate assembly for a file
+src/SnakeSection.cpp.s:
+	$(MAKE) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/SnakeSection.cpp.s
+.PHONY : src/SnakeSection.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -248,6 +275,9 @@ help:
 	@echo ... src/Input.obj
 	@echo ... src/Input.i
 	@echo ... src/Input.s
+	@echo ... src/SnakeSection.obj
+	@echo ... src/SnakeSection.i
+	@echo ... src/SnakeSection.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

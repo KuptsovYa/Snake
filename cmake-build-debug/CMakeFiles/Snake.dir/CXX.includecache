@@ -7,9 +7,17 @@
 #IncludeRegexTransform: 
 
 ../headers/Engine.hpp
+SnakeSection.h
+../headers/SnakeSection.h
 SFML/Graphics.hpp
 -
 SFML/Graphics/RectangleShape.hpp
+-
+vector
+-
+
+../headers/SnakeSection.h
+SFML/Graphics.hpp
 -
 
 C:/Tools/SFML/include/SFML/Config.hpp
@@ -682,15 +690,7 @@ SFML/Config.hpp
 
 C:/Tools/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/Yaroslav/CLionProjects/Snake/src/Engine.cpp
-Engine.hpp
-C:/Users/Yaroslav/CLionProjects/Snake/src/Engine.hpp
-
-C:/Users/Yaroslav/CLionProjects/Snake/src/draw.cpp
-Engine.hpp
-C:/Users/Yaroslav/CLionProjects/Snake/src/Engine.hpp
-
-C:/Users/Yaroslav/CLionProjects/Snake/src/main.cpp
+C:/Users/Yaroslav/CLionProjects/Snake/src/Draw.cpp
 Engine.hpp
 C:/Users/Yaroslav/CLionProjects/Snake/src/Engine.hpp
 

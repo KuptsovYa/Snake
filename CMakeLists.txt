@@ -3,7 +3,7 @@ project(Snake)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Snake src/main.cpp src/Engine.cpp headers/Engine.hpp src/Draw.cpp src/Input.cpp)
+add_executable(Snake src/main.cpp src/Engine.cpp headers/Engine.hpp src/Draw.cpp src/Input.cpp headers/SnakeSection.h src/SnakeSection.cpp)
 
 include_directories(headers c:/Tools/SFML/include)
 
