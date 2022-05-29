@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Snake.dir/src/Input.cpp.obj"
   "CMakeFiles/Snake.dir/src/SnakeSection.cpp.obj"
   "CMakeFiles/Snake.dir/src/main.cpp.obj"
+  "CMakeFiles/Snake.dir/src/update.cpp.obj"
   "Snake.exe"
   "Snake.exe.manifest"
   "Snake.pdb"

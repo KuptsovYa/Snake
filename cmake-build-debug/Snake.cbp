@@ -107,6 +107,9 @@
 		<Unit filename="C:/Users/Yaroslav/CLionProjects/Snake/src/main.cpp">
 			<Option target="Snake"/>
 		</Unit>
+		<Unit filename="C:/Users/Yaroslav/CLionProjects/Snake/src/update.cpp">
+			<Option target="Snake"/>
+		</Unit>
 		<Unit filename="C:/Users/Yaroslav/CLionProjects/Snake/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

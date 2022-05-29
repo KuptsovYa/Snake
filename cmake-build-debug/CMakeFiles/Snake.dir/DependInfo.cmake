@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Yaroslav/CLionProjects/Snake/src/Input.cpp" "C:/Users/Yaroslav/CLionProjects/Snake/cmake-build-debug/CMakeFiles/Snake.dir/src/Input.cpp.obj"
   "C:/Users/Yaroslav/CLionProjects/Snake/src/SnakeSection.cpp" "C:/Users/Yaroslav/CLionProjects/Snake/cmake-build-debug/CMakeFiles/Snake.dir/src/SnakeSection.cpp.obj"
   "C:/Users/Yaroslav/CLionProjects/Snake/src/main.cpp" "C:/Users/Yaroslav/CLionProjects/Snake/cmake-build-debug/CMakeFiles/Snake.dir/src/main.cpp.obj"
+  "C:/Users/Yaroslav/CLionProjects/Snake/src/update.cpp" "C:/Users/Yaroslav/CLionProjects/Snake/cmake-build-debug/CMakeFiles/Snake.dir/src/update.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

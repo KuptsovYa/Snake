@@ -7,6 +7,10 @@ Engine::Engine() {
     window.create(sf::VideoMode(resolution.x, resolution.y), "Snake", sf::Style::Default);
     window.setFramerateLimit(FPS);
 
+    snakeSpeed = 2;
+    snakeDirection = Direction::RIGHT;
+    timeSinceLastMove = sf::Time::Zero;
+
     newSnake();
 }
 
@@ -25,9 +29,13 @@ void Engine::addSnakeSection() {
 }
 
 void Engine::run() {
+    sf::Clock clock;
     //Main loop
     while (window.isOpen()) {
+        sf::Time dt = clock.restart();
+        timeSinceLastMove += dt;
         input();
+        update();
         draw();
     }
 }
